@@ -1,0 +1,78 @@
+#content {
+    max-height: fit-content;
+    background-color: #FFE4E1;
+    vertical-align: middle;
+    padding-top: 25px;
+    padding-bottom: 25px;
+    margin-left: 250px;
+    margin-right: 250px;
+    margin-top: 10px;
+}
+
+header {
+    font-size: 48px;
+    font-family: 'Lemonada', cursive;
+    border-style: solid;
+    border-radius: 8px;
+    padding-left: 5px;
+    padding-right: 5px;
+    max-width: fit-content;
+    text-decoration: underline;
+    text-align: center;
+    display: inline-block;
+    background-color: azure;
+    position: relative;
+}
+
+#instructions {
+    background-color: azure;
+    font-size: 24px;
+    margin-top: 10px;
+    max-width: fit-content;
+    padding-left: 10px;
+    padding-right: 10px;
+    align-self: center;
+    margin-left: 50px;
+    margin-right: 50px;
+    border-style: dotted;
+    border-radius: 3px;
+    margin-bottom: 10px;
+    display: block;
+}
+
+.question {
+    margin-left: 50px;
+    margin-right: 50px;
+    background-color: bisque;
+    padding-bottom: 5px;
+    min-width: fit-content;
+    max-width: auto;
+    display: none;
+    
+}
+
+label {
+    font-size: 18px;
+}
+
+body {
+    background-color: crimson;
+    text-align: center;
+    background-image: empty;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+#button {
+    display: none;
+    align-self: center;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+a {
+    font-size: 36px;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+}

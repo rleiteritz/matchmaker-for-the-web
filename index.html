@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Matchmaker for the Web</title>
+    <link rel="stylesheet" href="style.css">
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Lemonada:wght@300&display=swap');
+    </style>
+</head>
+
+<body>
+<div id="content">
+<header>Matchmaker</header>
+
+<div id="instructions">
+    <p id="intro">
+        Are you searching for true love, a boyfriend, or even just someone to get
+        coffee with? Well then, you're in luck! Look no further, Matchmaker could be the solution. 
+        <hr>
+        This simple website will ask you five questions and gauge our compatibility using your responses. 
+        Pretty neat, right? The questions each have the same five answer choices, ranging from 
+        'strongly agree' to 'strongly disagree'. <br> <br> After the 'Submit' button is clicked your results will 
+        instantly be displayed. If you'd like to see our compatibility for each question rather than the total, simply
+        open the console in your browser (shortcut is typically F12 key). Anyways, enough
+        introduction, you can begin at any time by clicking the 'Start' button! <br><br> 
+        - Ryan Leiteritz
+    </p>
+</div>
+
+
+<a href="#" class="Start" id="start" onclick="start()">Start &raquo;</a>
+
+
+<div class="question">
+<p><label>I love trying new things.</label></p>
+<form id="q1">
+    <input type="radio" id="r1" value="5" name="q1"> <label>Strongly Agree</label>
+    <input type="radio" id="r1" value="4" name="q1"> <label>Agree</label>
+    <input type="radio" id="r1" value="3" name="q1"> <label>Neither agree nor disagree</label>
+    <input type="radio" id="r1" value="2" name="q1"> <label>Disagree</label>
+    <input type="radio" id="r1" value="1" name="q1"> <label>Strongly Disagree</label>
+</form>
+</div>
+<br>
+
+<div class="question">
+<p><label>Country music is great!</label></p>
+<form id="q2">
+    <input type="radio" id="r2" value="5" name="q2"> <label>Strongly Agree</label>
+    <input type="radio" id="r2" value="4" name="q2"> <label>Agree</label>
+    <input type="radio" id="r2" value="3" name="q2"> <label>Neither agree nor disagree</label>
+    <input type="radio" id="r2" value="2" name="q2"> <label>Disagree</label>
+    <input type="radio" id="r2" value="1" name="q2"> <label>Strongly Disagree</label>
+</form>
+</div>
+<br>
+
+<div class="question">
+<p><label>I enjoy playing video games.</label></p>
+<form id="q3">
+    <input type="radio" id="r3" value="5" name="q3"> <label>Strongly Agree</label>
+    <input type="radio" id="r3" value="4" name="q3"> <label>Agree</label>
+    <input type="radio" id="r3" value="3" name="q3"> <label>Neither agree nor disagree</label>
+    <input type="radio" id="r3" value="2" name="q3"> <label>Disagree</label>
+    <input type="radio" id="r3" value="1" name="q3"> <label>Strongly Disagree</label>
+</form>
+</div>
+<br>
+
+<div class="question">
+<p><label>It's important to have a good sense of humor.</label></p>
+<form id="q4">
+    <input type="radio" id="r4" value="5" name="q4"> <label>Strongly Agree</label>
+    <input type="radio" id="r4" value="4" name="q4"> <label>Agree</label>
+    <input type="radio" id="r4" value="3" name="q4"> <label>Neither agree nor disagree</label>
+    <input type="radio" id="r4" value="2" name="q4"> <label>Disagree</label>
+    <input type="radio" id="r4" value="1" name="q4"> <label>Strongly Disagree</label>
+</form>
+</div>
+<br>
+
+<div class="question">
+<p><label>I would rather resolve an argument with someone than prove a point.</label></p>
+<form id="q5">
+    <input type="radio" id="r5" value="5" name="q5"> <label>Strongly Agree</label>
+    <input type="radio" id="r5" value="4" name="q5"> <label>Agree</label>
+    <input type="radio" id="r5" value="3" name="q5"> <label>Neither agree nor disagree</label>
+    <input type="radio" id="r5" value="2" name="q5"> <label>Disagree</label>
+    <input type="radio" id="r5" value="1" name="q5"> <label>Strongly Disagree</label>
+</form>
+</div>
+<br>
+
+<script src="matchmaker.js"></script>
+
+<button id = "button" onclick="calcCompatibility()">Submit</button>
+
+<p id="result"></p>
+
+
+</div>
+</body>
+</html>
